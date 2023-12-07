@@ -1,7 +1,7 @@
-package org.ensaj.voiture.Service;
+package ma.emsi.voitureeureka.service;
 
-import org.ensaj.voiture.Model.Voiture;
-import org.ensaj.voiture.Repository.VoitureRepository;
+import ma.emsi.voitureeureka.beans.Voiture;
+import ma.emsi.voitureeureka.repository.VoitureRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

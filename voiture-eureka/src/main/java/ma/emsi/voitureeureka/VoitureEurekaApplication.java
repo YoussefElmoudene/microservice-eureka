@@ -6,12 +6,13 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.stereotype.Component;
 
 @SpringBootApplication
+@EnableFeignClients
 @EnableDiscoveryClient
 @Component("org.emsi.voiture")
 public class VoitureEurekaApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(VoitureEurekaApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(VoitureEurekaApplication.class, args);
+	}
 
 }

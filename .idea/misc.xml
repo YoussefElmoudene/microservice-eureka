@@ -7,6 +7,10 @@
         <option value="$PROJECT_DIR$/eureka-client/eureka-client/pom.xml" />
         <option value="$PROJECT_DIR$/eurika-server/eurika-server/pom.xml" />
         <option value="$PROJECT_DIR$/getway-project/getway-project/pom.xml" />
+        <option value="$PROJECT_DIR$/eurika-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/getway-project/pom.xml" />
+        <option value="$PROJECT_DIR$/voiture-eureka/pom.xml" />
       </list>
     </option>
   </component>
