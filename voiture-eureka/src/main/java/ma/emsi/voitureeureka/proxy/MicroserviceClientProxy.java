@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name = "SERVICE-CLIENT", url = "http://localhost:8080")
+@FeignClient(name = "SERVICE-CLIENT", url = "http://localhost:8088")
 
 public interface MicroserviceClientProxy {
-    @GetMapping("/clients")
+    @GetMapping("/clients/")
     List<ClientVo> find();
 
     @GetMapping("/clients/{id}")

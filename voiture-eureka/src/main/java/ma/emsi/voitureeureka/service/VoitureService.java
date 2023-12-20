@@ -11,7 +11,7 @@ public class VoitureService {
     @Autowired
     private VoitureRepository voitureRepository;
 
-    public Voiture enregistrerVoiture(Voiture voiture){
+    public Voiture enregistrerVoiture(Voiture voiture) {
         return voitureRepository.save(voiture);
     }
 }
